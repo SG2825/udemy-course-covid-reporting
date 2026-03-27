@@ -1,0 +1,9 @@
+{
+	"name": "udemy-covid-project-sg-adf",
+	"location": "westus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c8c6cd7e-7d85-41e3-8abc-533070abc4b0",
+		"tenantId": "5bc52fdd-f620-4f8b-8f2e-c758b573ca1c"
+	}
+}
