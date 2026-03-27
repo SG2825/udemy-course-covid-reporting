@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "udemy-covid-project-sg-adf"
+		},
+		"ls_adb_udemy_covid_project_training_accessToken": {
+			"value": ""
+		},
+		"ls_adls_covid_reporting_gen2_accountKey": {
+			"value": ""
+		},
+		"ls_azure_sql_covid_db_password": {
+			"value": ""
+		},
+		"ls_blob_covid_reporting_sa_connectionString": {
+			"value": ""
+		},
+		"ls_adb_udemy_covid_project_training_properties_typeProperties_existingClusterId": {
+			"value": "0317-071743-lvee4lv6"
+		},
+		"ls_adls_covid_reporting_gen2_properties_typeProperties_url": {
+			"value": "https://udemycovidprojectsgadls.dfs.core.windows.net/"
+		},
+		"ls_azure_sql_covid_db_properties_typeProperties_server": {
+			"value": "udemy-covid.database.windows.net"
+		},
+		"ls_azure_sql_covid_db_properties_typeProperties_database": {
+			"value": "covid-db"
+		},
+		"ls_azure_sql_covid_db_properties_typeProperties_userName": {
+			"value": "adm"
+		},
+		"ls_ecdc_https_opensource_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"tr_population_data_arrived_properties_typeProperties_scope": {
+			"value": "/subscriptions/0ba40c31-2e53-4213-84fc-612f4ca0bde7/resourceGroups/rg-udemy-adf-course/providers/Microsoft.Storage/storageAccounts/udemycovidprojectsgsta"
+		}
+	}
+}
